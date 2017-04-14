@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25D9DF0F34CFFCE0627D9DF /* Pods_RoyalSecretAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */; };
 		F397347E1E9E967800300D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397347D1E9E967800300D3D /* AppDelegate.swift */; };
 		F39734801E9E967800300D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397347F1E9E967800300D3D /* ViewController.swift */; };
 		F39734831E9E967800300D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39734811E9E967800300D3D /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyalSecretAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A662F0018705BDEB0605A5 /* Pods-RoyalSecretAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalSecretAgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent.debug.xcconfig"; sourceTree = "<group>"; };
 		F397347A1E9E967800300D3D /* RoyalSecretAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalSecretAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F397347D1E9E967800300D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F397347F1E9E967800300D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		F39734841E9E967800300D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39734871E9E967800300D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F39734891E9E967800300D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93FEBCC36F5D6C9B3EF4D38 /* Pods-RoyalSecretAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalSecretAgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25D9DF0F34CFFCE0627D9DF /* Pods_RoyalSecretAgent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0652948801FEBF732CB42C4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D513C27D5F166E3A50DF9EA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41A662F0018705BDEB0605A5 /* Pods-RoyalSecretAgent.debug.xcconfig */,
+				F93FEBCC36F5D6C9B3EF4D38 /* Pods-RoyalSecretAgent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F39734711E9E967800300D3D = {
 			isa = PBXGroup;
 			children = (
 				F397347C1E9E967800300D3D /* RoyalSecretAgent */,
 				F397347B1E9E967800300D3D /* Products */,
+				D513C27D5F166E3A50DF9EA9 /* Pods */,
+				0652948801FEBF732CB42C4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F397348C1E9E967800300D3D /* Build configuration list for PBXNativeTarget "RoyalSecretAgent" */;
 			buildPhases = (
+				165BAD28AFD82D9AB290EB56 /* [CP] Check Pods Manifest.lock */,
 				F39734761E9E967800300D3D /* Sources */,
 				F39734771E9E967800300D3D /* Frameworks */,
 				F39734781E9E967800300D3D /* Resources */,
+				294C1EB69C1D52F2301F46A8 /* [CP] Embed Pods Frameworks */,
+				30CFBC3EEEFC7B9A468547FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165BAD28AFD82D9AB290EB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		294C1EB69C1D52F2301F46A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30CFBC3EEEFC7B9A468547FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F39734761E9E967800300D3D /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		F397348D1E9E967800300D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A662F0018705BDEB0605A5 /* Pods-RoyalSecretAgent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53UPRFB66G;
@@ -270,6 +346,7 @@
 		};
 		F397348E1E9E967800300D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93FEBCC36F5D6C9B3EF4D38 /* Pods-RoyalSecretAgent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53UPRFB66G;
