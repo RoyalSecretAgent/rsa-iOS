@@ -10,12 +10,7 @@ target 'RoyalSecretAgent' do
   # Model
   pod 'ObjectMapper', '~> 2.2'
 
-  # UI
-  pod 'ManualLayout', '~> 1.3'
-  pod 'SnapKit', '~> 3.2'
-
   # Misc.
-  pod 'CGFloatLiteral'
   pod 'Then'
 
 end
