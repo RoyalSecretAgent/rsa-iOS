@@ -9,17 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CGFloatLiteral.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Kingfisher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ManualLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,11 +24,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SnapKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Then.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,32 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>217EE4094A376DA4FABB56E99903571D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6FAAEDC5548B8C25B252845B4CCA7BED</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7654FA25CAF378B9149574308FEFFBC6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7660F5F165BBB620DE7C163AE581381C</key>
+		<key>4537BD20AFA9B6643A978E51A34D879B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B38B5BA9FF7D303EB33D68C32CCDB19B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -83,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>CD6C9FB6B052E1CF663F8A56041EA163</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE74A83C4B162CB5B19F1F391138CD1C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

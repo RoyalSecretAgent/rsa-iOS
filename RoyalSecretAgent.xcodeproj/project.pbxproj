@@ -15,6 +15,11 @@
 		F39734881E9E967800300D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39734861E9E967800300D3D /* LaunchScreen.storyboard */; };
 		F3BEDCB51EA3E984009E0356 /* RoyalSecretAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCB41EA3E984009E0356 /* RoyalSecretAgentTests.swift */; };
 		F3BEDCC31EA3E990009E0356 /* RoyalSecretAgentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCC21EA3E990009E0356 /* RoyalSecretAgentUITests.swift */; };
+		F3BEDCD01EA3EAD2009E0356 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCCF1EA3EAD2009E0356 /* AuthService.swift */; };
+		F3BEDCD21EA3EADF009E0356 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCD11EA3EADF009E0356 /* UserService.swift */; };
+		F3BEDCD41EA3EB1D009E0356 /* Response+ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCD31EA3EB1D009E0356 /* Response+ErrorInfo.swift */; };
+		F3BEDCD61EA3EB35009E0356 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCD51EA3EB35009E0356 /* MappingError.swift */; };
+		F3BEDCD81EA3EB5B009E0356 /* DataResponse+MapResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCD71EA3EB5B009E0356 /* DataResponse+MapResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		F3BEDCC01EA3E990009E0356 /* RoyalSecretAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalSecretAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BEDCC21EA3E990009E0356 /* RoyalSecretAgentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyalSecretAgentUITests.swift; sourceTree = "<group>"; };
 		F3BEDCC41EA3E990009E0356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDCCF1EA3EAD2009E0356 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F3BEDCD11EA3EADF009E0356 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F3BEDCD31EA3EB1D009E0356 /* Response+ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ErrorInfo.swift"; sourceTree = "<group>"; };
+		F3BEDCD51EA3EB35009E0356 /* MappingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingError.swift; sourceTree = "<group>"; };
+		F3BEDCD71EA3EB5B009E0356 /* DataResponse+MapResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataResponse+MapResult.swift"; sourceTree = "<group>"; };
 		F93FEBCC36F5D6C9B3EF4D38 /* Pods-RoyalSecretAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalSecretAgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +131,11 @@
 		F397347C1E9E967800300D3D /* RoyalSecretAgent */ = {
 			isa = PBXGroup;
 			children = (
+				F3BEDCCE1EA3EA90009E0356 /* Types */,
+				F3BEDCCD1EA3EA61009E0356 /* ViewControllers */,
+				F3BEDCCC1EA3EA41009E0356 /* Networking */,
+				F3BEDCCB1EA3EA3A009E0356 /* Services */,
+				F3BEDCCA1EA3EA34009E0356 /* Models */,
 				F397347D1E9E967800300D3D /* AppDelegate.swift */,
 				F397347F1E9E967800300D3D /* ViewController.swift */,
 				F39734811E9E967800300D3D /* Main.storyboard */,
@@ -147,6 +162,46 @@
 				F3BEDCC41EA3E990009E0356 /* Info.plist */,
 			);
 			path = RoyalSecretAgentUITests;
+			sourceTree = "<group>";
+		};
+		F3BEDCCA1EA3EA34009E0356 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F3BEDCCB1EA3EA3A009E0356 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDCCF1EA3EAD2009E0356 /* AuthService.swift */,
+				F3BEDCD11EA3EADF009E0356 /* UserService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		F3BEDCCC1EA3EA41009E0356 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDCD31EA3EB1D009E0356 /* Response+ErrorInfo.swift */,
+				F3BEDCD51EA3EB35009E0356 /* MappingError.swift */,
+				F3BEDCD71EA3EB5B009E0356 /* DataResponse+MapResult.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F3BEDCCD1EA3EA61009E0356 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F3BEDCCE1EA3EA90009E0356 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BEDCD21EA3EADF009E0356 /* UserService.swift in Sources */,
+				F3BEDCD61EA3EB35009E0356 /* MappingError.swift in Sources */,
+				F3BEDCD01EA3EAD2009E0356 /* AuthService.swift in Sources */,
+				F3BEDCD41EA3EB1D009E0356 /* Response+ErrorInfo.swift in Sources */,
 				F39734801E9E967800300D3D /* ViewController.swift in Sources */,
 				F397347E1E9E967800300D3D /* AppDelegate.swift in Sources */,
+				F3BEDCD81EA3EB5B009E0356 /* DataResponse+MapResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
