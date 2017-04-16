@@ -13,7 +13,26 @@
 		F39734831E9E967800300D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39734811E9E967800300D3D /* Main.storyboard */; };
 		F39734851E9E967800300D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39734841E9E967800300D3D /* Assets.xcassets */; };
 		F39734881E9E967800300D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39734861E9E967800300D3D /* LaunchScreen.storyboard */; };
+		F3BEDCB51EA3E984009E0356 /* RoyalSecretAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCB41EA3E984009E0356 /* RoyalSecretAgentTests.swift */; };
+		F3BEDCC31EA3E990009E0356 /* RoyalSecretAgentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDCC21EA3E990009E0356 /* RoyalSecretAgentUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BEDCB71EA3E984009E0356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39734721E9E967800300D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39734791E9E967800300D3D;
+			remoteInfo = RoyalSecretAgent;
+		};
+		F3BEDCC51EA3E990009E0356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39734721E9E967800300D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39734791E9E967800300D3D;
+			remoteInfo = RoyalSecretAgent;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyalSecretAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +44,12 @@
 		F39734841E9E967800300D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39734871E9E967800300D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F39734891E9E967800300D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDCB21EA3E983009E0356 /* RoyalSecretAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalSecretAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BEDCB41EA3E984009E0356 /* RoyalSecretAgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyalSecretAgentTests.swift; sourceTree = "<group>"; };
+		F3BEDCB61EA3E984009E0356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDCC01EA3E990009E0356 /* RoyalSecretAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalSecretAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BEDCC21EA3E990009E0356 /* RoyalSecretAgentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyalSecretAgentUITests.swift; sourceTree = "<group>"; };
+		F3BEDCC41EA3E990009E0356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F93FEBCC36F5D6C9B3EF4D38 /* Pods-RoyalSecretAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalSecretAgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,6 +59,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25D9DF0F34CFFCE0627D9DF /* Pods_RoyalSecretAgent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDCAF1EA3E983009E0356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDCBD1EA3E990009E0356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				F397347C1E9E967800300D3D /* RoyalSecretAgent */,
+				F3BEDCB31EA3E984009E0356 /* RoyalSecretAgentTests */,
+				F3BEDCC11EA3E990009E0356 /* RoyalSecretAgentUITests */,
 				F397347B1E9E967800300D3D /* Products */,
 				D513C27D5F166E3A50DF9EA9 /* Pods */,
 				0652948801FEBF732CB42C4A /* Frameworks */,
@@ -71,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				F397347A1E9E967800300D3D /* RoyalSecretAgent.app */,
+				F3BEDCB21EA3E983009E0356 /* RoyalSecretAgentTests.xctest */,
+				F3BEDCC01EA3E990009E0356 /* RoyalSecretAgentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +129,24 @@
 				F39734891E9E967800300D3D /* Info.plist */,
 			);
 			path = RoyalSecretAgent;
+			sourceTree = "<group>";
+		};
+		F3BEDCB31EA3E984009E0356 /* RoyalSecretAgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDCB41EA3E984009E0356 /* RoyalSecretAgentTests.swift */,
+				F3BEDCB61EA3E984009E0356 /* Info.plist */,
+			);
+			path = RoyalSecretAgentTests;
+			sourceTree = "<group>";
+		};
+		F3BEDCC11EA3E990009E0356 /* RoyalSecretAgentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDCC21EA3E990009E0356 /* RoyalSecretAgentUITests.swift */,
+				F3BEDCC41EA3E990009E0356 /* Info.plist */,
+			);
+			path = RoyalSecretAgentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +172,42 @@
 			productReference = F397347A1E9E967800300D3D /* RoyalSecretAgent.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F3BEDCB11EA3E983009E0356 /* RoyalSecretAgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BEDCBB1EA3E984009E0356 /* Build configuration list for PBXNativeTarget "RoyalSecretAgentTests" */;
+			buildPhases = (
+				F3BEDCAE1EA3E983009E0356 /* Sources */,
+				F3BEDCAF1EA3E983009E0356 /* Frameworks */,
+				F3BEDCB01EA3E983009E0356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BEDCB81EA3E984009E0356 /* PBXTargetDependency */,
+			);
+			name = RoyalSecretAgentTests;
+			productName = RoyalSecretAgentTests;
+			productReference = F3BEDCB21EA3E983009E0356 /* RoyalSecretAgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3BEDCBF1EA3E990009E0356 /* RoyalSecretAgentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BEDCC71EA3E990009E0356 /* Build configuration list for PBXNativeTarget "RoyalSecretAgentUITests" */;
+			buildPhases = (
+				F3BEDCBC1EA3E990009E0356 /* Sources */,
+				F3BEDCBD1EA3E990009E0356 /* Frameworks */,
+				F3BEDCBE1EA3E990009E0356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BEDCC61EA3E990009E0356 /* PBXTargetDependency */,
+			);
+			name = RoyalSecretAgentUITests;
+			productName = RoyalSecretAgentUITests;
+			productReference = F3BEDCC01EA3E990009E0356 /* RoyalSecretAgentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +222,18 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 53UPRFB66G;
 						ProvisioningStyle = Automatic;
+					};
+					F3BEDCB11EA3E983009E0356 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53UPRFB66G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F39734791E9E967800300D3D;
+					};
+					F3BEDCBF1EA3E990009E0356 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53UPRFB66G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F39734791E9E967800300D3D;
 					};
 				};
 			};
@@ -142,6 +251,8 @@
 			projectRoot = "";
 			targets = (
 				F39734791E9E967800300D3D /* RoyalSecretAgent */,
+				F3BEDCB11EA3E983009E0356 /* RoyalSecretAgentTests */,
+				F3BEDCBF1EA3E990009E0356 /* RoyalSecretAgentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +265,20 @@
 				F39734881E9E967800300D3D /* LaunchScreen.storyboard in Resources */,
 				F39734851E9E967800300D3D /* Assets.xcassets in Resources */,
 				F39734831E9E967800300D3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDCB01EA3E983009E0356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDCBE1EA3E990009E0356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +342,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3BEDCAE1EA3E983009E0356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEDCB51EA3E984009E0356 /* RoyalSecretAgentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDCBC1EA3E990009E0356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEDCC31EA3E990009E0356 /* RoyalSecretAgentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BEDCB81EA3E984009E0356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39734791E9E967800300D3D /* RoyalSecretAgent */;
+			targetProxy = F3BEDCB71EA3E984009E0356 /* PBXContainerItemProxy */;
+		};
+		F3BEDCC61EA3E990009E0356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39734791E9E967800300D3D /* RoyalSecretAgent */;
+			targetProxy = F3BEDCC51EA3E990009E0356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F39734811E9E967800300D3D /* Main.storyboard */ = {
@@ -358,6 +512,60 @@
 			};
 			name = Release;
 		};
+		F3BEDCB91EA3E984009E0356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 53UPRFB66G;
+				INFOPLIST_FILE = RoyalSecretAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchbly.RoyalSecretAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyalSecretAgent.app/RoyalSecretAgent";
+			};
+			name = Debug;
+		};
+		F3BEDCBA1EA3E984009E0356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 53UPRFB66G;
+				INFOPLIST_FILE = RoyalSecretAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchbly.RoyalSecretAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyalSecretAgent.app/RoyalSecretAgent";
+			};
+			name = Release;
+		};
+		F3BEDCC81EA3E990009E0356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 53UPRFB66G;
+				INFOPLIST_FILE = RoyalSecretAgentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchbly.RoyalSecretAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoyalSecretAgent;
+			};
+			name = Debug;
+		};
+		F3BEDCC91EA3E990009E0356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 53UPRFB66G;
+				INFOPLIST_FILE = RoyalSecretAgentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchbly.RoyalSecretAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoyalSecretAgent;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,6 +583,23 @@
 			buildConfigurations = (
 				F397348D1E9E967800300D3D /* Debug */,
 				F397348E1E9E967800300D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BEDCBB1EA3E984009E0356 /* Build configuration list for PBXNativeTarget "RoyalSecretAgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDCB91EA3E984009E0356 /* Debug */,
+				F3BEDCBA1EA3E984009E0356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3BEDCC71EA3E990009E0356 /* Build configuration list for PBXNativeTarget "RoyalSecretAgentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDCC81EA3E990009E0356 /* Debug */,
+				F3BEDCC91EA3E990009E0356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
