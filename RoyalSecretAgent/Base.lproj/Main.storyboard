@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="s2r-FD-hqB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Rr9-gI-w6g">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--랭킹-->
+        <!--RankingViewController-->
         <scene sceneID="Pfb-0S-Kbo">
             <objects>
-                <viewController id="ptI-IJ-iQO" userLabel="랭킹" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="ptI-IJ-iQO" userLabel="RankingViewController" customClass="RankingViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8dU-n9-5IE"/>
                         <viewControllerLayoutGuide type="bottom" id="dc2-Iq-gx7"/>
@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="753" y="-343"/>
         </scene>
-        <!--게임-->
+        <!--GameViewController-->
         <scene sceneID="uhD-G0-Ibd">
             <objects>
-                <viewController id="66c-WU-9O9" userLabel="게임" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="66c-WU-9O9" userLabel="GameViewController" customClass="GameViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RfU-O4-fbo"/>
                         <viewControllerLayoutGuide type="bottom" id="cq6-ol-fRi"/>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="753" y="333"/>
         </scene>
-        <!--마이페이지-->
+        <!--MyPageViewController-->
         <scene sceneID="wXV-Rt-tPl">
             <objects>
-                <viewController id="dR4-my-QCD" userLabel="마이페이지" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dR4-my-QCD" userLabel="MyPageViewController" customClass="MyPageViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kBk-x3-og4"/>
                         <viewControllerLayoutGuide type="bottom" id="c39-iB-C2c"/>
@@ -66,10 +66,46 @@
             </objects>
             <point key="canvasLocation" x="753" y="993"/>
         </scene>
-        <!--설정-->
+        <!--Book Detail View Controller-->
+        <scene sceneID="ZMj-Eu-Ivi">
+            <objects>
+                <viewController storyboardIdentifier="BookDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6ta-5H-VuZ" customClass="BookDetailViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SsV-G8-c5h"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Ko-PZ-obl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Bv-Ts-k2D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rw9-IA-tDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="777"/>
+        </scene>
+        <!--Achivement Detail View Controller-->
+        <scene sceneID="SU8-H0-RMs">
+            <objects>
+                <viewController storyboardIdentifier="AchivementDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="moG-TV-E1S" customClass="AchivementDetailViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PmP-WB-Thi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ACy-vG-9gr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l02-Cy-iRI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qla-T2-cET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1966" y="1441"/>
+        </scene>
+        <!--SettingsViewController-->
         <scene sceneID="CK1-Mw-hK3">
             <objects>
-                <viewController id="7ws-Q5-9Cr" userLabel="설정" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7ws-Q5-9Cr" userLabel="SettingsViewController" customClass="SettingsViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cv7-ec-O4A"/>
                         <viewControllerLayoutGuide type="bottom" id="KS0-Lm-dvh"/>
@@ -83,12 +119,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uiG-DH-eLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753" y="1648"/>
+            <point key="canvasLocation" x="753" y="1667"/>
         </scene>
-        <!--검색-->
+        <!--SearchViewController-->
         <scene sceneID="NYm-CZ-wP2">
             <objects>
-                <viewController id="YKq-qv-tTA" userLabel="검색" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YKq-qv-tTA" userLabel="SearchViewController" customClass="SearchViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dpd-Vb-wPh"/>
                         <viewControllerLayoutGuide type="bottom" id="931-p1-vtd"/>

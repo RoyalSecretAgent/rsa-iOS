@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A25D9DF0F34CFFCE0627D9DF /* Pods_RoyalSecretAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */; };
+		F3589C901EAC817D00BCA899 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3589C8F1EAC817D00BCA899 /* MyPageViewController.swift */; };
+		F3589C921EAC81C300BCA899 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3589C911EAC81C300BCA899 /* RankingViewController.swift */; };
+		F3589C941EAC81D100BCA899 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3589C931EAC81D100BCA899 /* GameViewController.swift */; };
+		F3589C961EAC81DB00BCA899 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3589C951EAC81DB00BCA899 /* SearchViewController.swift */; };
+		F3589C981EAC81FF00BCA899 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3589C971EAC81FF00BCA899 /* SettingsViewController.swift */; };
+		F388C7311EAC8713006B2B0A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388C7301EAC8713006B2B0A /* BookDetailViewController.swift */; };
+		F388C7331EAC8724006B2B0A /* AchivementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388C7321EAC8724006B2B0A /* AchivementDetailViewController.swift */; };
+		F388C7351EAC8803006B2B0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388C7341EAC8803006B2B0A /* User.swift */; };
+		F388C7371EAC880F006B2B0A /* Achivement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388C7361EAC880F006B2B0A /* Achivement.swift */; };
+		F388C7391EAC88A8006B2B0A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388C7381EAC88A8006B2B0A /* Item.swift */; };
 		F397347E1E9E967800300D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397347D1E9E967800300D3D /* AppDelegate.swift */; };
 		F39734801E9E967800300D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397347F1E9E967800300D3D /* ViewController.swift */; };
 		F39734831E9E967800300D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39734811E9E967800300D3D /* Main.storyboard */; };
@@ -42,6 +52,16 @@
 /* Begin PBXFileReference section */
 		0F1A19986C5DE52EFDF3FF48 /* Pods_RoyalSecretAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyalSecretAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A662F0018705BDEB0605A5 /* Pods-RoyalSecretAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalSecretAgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalSecretAgent/Pods-RoyalSecretAgent.debug.xcconfig"; sourceTree = "<group>"; };
+		F3589C8F1EAC817D00BCA899 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		F3589C911EAC81C300BCA899 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		F3589C931EAC81D100BCA899 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F3589C951EAC81DB00BCA899 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F3589C971EAC81FF00BCA899 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F388C7301EAC8713006B2B0A /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		F388C7321EAC8724006B2B0A /* AchivementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchivementDetailViewController.swift; sourceTree = "<group>"; };
+		F388C7341EAC8803006B2B0A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F388C7361EAC880F006B2B0A /* Achivement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Achivement.swift; sourceTree = "<group>"; };
+		F388C7381EAC88A8006B2B0A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F397347A1E9E967800300D3D /* RoyalSecretAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalSecretAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F397347D1E9E967800300D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F397347F1E9E967800300D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,11 +151,12 @@
 		F397347C1E9E967800300D3D /* RoyalSecretAgent */ = {
 			isa = PBXGroup;
 			children = (
-				F3BEDCCE1EA3EA90009E0356 /* Types */,
+				F3BEDCDB1EA3F43E009E0356 /* Utils */,
 				F3BEDCCD1EA3EA61009E0356 /* ViewControllers */,
+				F3BEDCCA1EA3EA34009E0356 /* Models */,
+				F3BEDCCE1EA3EA90009E0356 /* Types */,
 				F3BEDCCC1EA3EA41009E0356 /* Networking */,
 				F3BEDCCB1EA3EA3A009E0356 /* Services */,
-				F3BEDCCA1EA3EA34009E0356 /* Models */,
 				F397347D1E9E967800300D3D /* AppDelegate.swift */,
 				F397347F1E9E967800300D3D /* ViewController.swift */,
 				F39734811E9E967800300D3D /* Main.storyboard */,
@@ -167,6 +188,9 @@
 		F3BEDCCA1EA3EA34009E0356 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F388C7341EAC8803006B2B0A /* User.swift */,
+				F388C7361EAC880F006B2B0A /* Achivement.swift */,
+				F388C7381EAC88A8006B2B0A /* Item.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -193,6 +217,13 @@
 		F3BEDCCD1EA3EA61009E0356 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F3589C8F1EAC817D00BCA899 /* MyPageViewController.swift */,
+				F3589C911EAC81C300BCA899 /* RankingViewController.swift */,
+				F3589C931EAC81D100BCA899 /* GameViewController.swift */,
+				F3589C951EAC81DB00BCA899 /* SearchViewController.swift */,
+				F3589C971EAC81FF00BCA899 /* SettingsViewController.swift */,
+				F388C7301EAC8713006B2B0A /* BookDetailViewController.swift */,
+				F388C7321EAC8724006B2B0A /* AchivementDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +233,21 @@
 			children = (
 			);
 			name = Types;
+			sourceTree = "<group>";
+		};
+		F3BEDCDA1EA3ECD9009E0356 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3BEDCDB1EA3F43E009E0356 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDCDA1EA3ECD9009E0356 /* ViewModels */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,13 +438,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3589C941EAC81D100BCA899 /* GameViewController.swift in Sources */,
+				F3589C961EAC81DB00BCA899 /* SearchViewController.swift in Sources */,
+				F388C7391EAC88A8006B2B0A /* Item.swift in Sources */,
 				F3BEDCD21EA3EADF009E0356 /* UserService.swift in Sources */,
+				F388C7331EAC8724006B2B0A /* AchivementDetailViewController.swift in Sources */,
+				F388C7311EAC8713006B2B0A /* BookDetailViewController.swift in Sources */,
 				F3BEDCD61EA3EB35009E0356 /* MappingError.swift in Sources */,
 				F3BEDCD01EA3EAD2009E0356 /* AuthService.swift in Sources */,
 				F3BEDCD41EA3EB1D009E0356 /* Response+ErrorInfo.swift in Sources */,
+				F388C7351EAC8803006B2B0A /* User.swift in Sources */,
 				F39734801E9E967800300D3D /* ViewController.swift in Sources */,
 				F397347E1E9E967800300D3D /* AppDelegate.swift in Sources */,
 				F3BEDCD81EA3EB5B009E0356 /* DataResponse+MapResult.swift in Sources */,
+				F3589C901EAC817D00BCA899 /* MyPageViewController.swift in Sources */,
+				F3589C921EAC81C300BCA899 /* RankingViewController.swift in Sources */,
+				F3589C981EAC81FF00BCA899 /* SettingsViewController.swift in Sources */,
+				F388C7371EAC880F006B2B0A /* Achivement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +530,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: gaonmail1@gmail.com (D7547BWW4G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -523,6 +580,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: gaonmail1@gmail.com (D7547BWW4G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -654,6 +712,7 @@
 				F3BEDCBA1EA3E984009E0356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3BEDCC71EA3E990009E0356 /* Build configuration list for PBXNativeTarget "RoyalSecretAgentUITests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +721,7 @@
 				F3BEDCC91EA3E990009E0356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
