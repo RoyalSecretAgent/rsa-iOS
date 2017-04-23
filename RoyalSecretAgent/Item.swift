@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct Item {
+    var name: String
+    var image: URL
+    var whereGet: String
+    var whenGet: Date
+    var description: String
+}
