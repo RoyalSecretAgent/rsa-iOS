@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="9kZ-wF-7cd"/>
+                    <tabBarItem key="tabBarItem" title="랭킹" id="9kZ-wF-7cd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GMW-fs-hla" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -39,13 +39,24 @@
                     <view key="view" contentMode="scaleToFill" id="vo4-Fo-gih">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ots-vQ-iaq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ots-vQ-iaq" firstAttribute="leading" secondItem="vo4-Fo-gih" secondAttribute="leading" id="6aj-bc-XBg"/>
+                            <constraint firstAttribute="trailing" secondItem="Ots-vQ-iaq" secondAttribute="trailing" id="DjW-80-6fv"/>
+                            <constraint firstItem="Ots-vQ-iaq" firstAttribute="top" secondItem="RfU-O4-fbo" secondAttribute="bottom" id="Kxw-g5-OTb"/>
+                            <constraint firstItem="cq6-ol-fRi" firstAttribute="top" secondItem="Ots-vQ-iaq" secondAttribute="bottom" id="NDF-O7-I4x"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Enh-tm-lRZ"/>
+                    <tabBarItem key="tabBarItem" title="게임" id="Enh-tm-lRZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dnG-aA-X2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753" y="333"/>
+            <point key="canvasLocation" x="752.79999999999995" y="332.38380809595208"/>
         </scene>
         <!--MyPageViewController-->
         <scene sceneID="wXV-Rt-tPl">
@@ -60,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hOs-b6-hTl"/>
+                    <tabBarItem key="tabBarItem" title="마이페이지" id="hOs-b6-hTl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StF-BP-5ZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,24 +113,34 @@
             </objects>
             <point key="canvasLocation" x="1966" y="1441"/>
         </scene>
-        <!--SettingsViewController-->
-        <scene sceneID="CK1-Mw-hK3">
+        <!--도감-->
+        <scene sceneID="q6f-Rr-tHI">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7ws-Q5-9Cr" userLabel="SettingsViewController" customClass="SettingsViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cv7-ec-O4A"/>
-                        <viewControllerLayoutGuide type="bottom" id="KS0-Lm-dvh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ap7-jZ-DKR">
+                <tableViewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4mH-Zn-Qu8" customClass="SettingsViewController" customModule="RoyalSecretAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DaC-s9-rns">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="DED-dm-Uho"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uiG-DH-eLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hwq-K2-0Tp">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hwq-K2-0Tp" id="aE1-YU-GiK">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4mH-Zn-Qu8" id="sxU-6t-vFV"/>
+                            <outlet property="delegate" destination="4mH-Zn-Qu8" id="r83-EL-9ti"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="도감" id="LKU-UR-75B"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XeR-IL-2Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753" y="1667"/>
+            <point key="canvasLocation" x="753" y="1663"/>
         </scene>
         <!--SearchViewController-->
         <scene sceneID="NYm-CZ-wP2">
@@ -134,7 +155,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="7f4-6a-7YM"/>
+                    <tabBarItem key="tabBarItem" title="검색" id="7f4-6a-7YM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6BM-37-PjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -155,7 +176,7 @@
                         <segue destination="ptI-IJ-iQO" kind="relationship" relationship="viewControllers" id="1Az-K3-MoQ"/>
                         <segue destination="66c-WU-9O9" kind="relationship" relationship="viewControllers" id="Mou-Ek-d3R"/>
                         <segue destination="dR4-my-QCD" kind="relationship" relationship="viewControllers" id="XvC-Lq-fI4"/>
-                        <segue destination="7ws-Q5-9Cr" kind="relationship" relationship="viewControllers" id="UUK-AS-cFe"/>
+                        <segue destination="4mH-Zn-Qu8" kind="relationship" relationship="viewControllers" id="7O6-eg-BkU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DXk-mt-dLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
